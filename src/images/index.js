@@ -1,0 +1,16 @@
+export {default as logo} from './logo.svg';
+export {default as google} from './logo-google.png';
+export {default as ibm} from './logo-ibm.png';
+export {default as microsoft} from './logo-microsoft.png';
+export {default as hp} from './logo-hp.png';
+export {default as vector} from './logo-vector-graphics.png';
+export {default as facebook} from './icon-facebook.svg';
+export {default as twitter} from './icon-twitter.svg';
+export {default as instagram} from './icon-instagram.svg'
+export {default as desktopBG} from './bg-header-desktop.png';
+export {default as mobileBG} from './bg-header-mobile.png'
+export {default as computer} from './image-computer.png';
+export {default as mobile} from './image-devices.png';
+export {default as list} from './icon-blacklist.svg'
+export {default as letter} from './icon-text.svg'
+export {default as eye} from './icon-preview.svg'
