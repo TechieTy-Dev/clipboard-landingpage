@@ -8,15 +8,15 @@ function App() {
       {/* HERO SECTION */}
 <section className="flex flex-col justify-center align-middle items-center w-[80%] mx-auto">
 {/* LOGO */}
-  <img src={logo} alt="logo" className="w-28 my-16 lg:my-28 h-28 mx-auto"/>
+  <img src={logo} alt="logo" className="w-28 my-24 lg:my-28 h-28 mx-auto"/>
   {/* HERO */}
-<h1 className="text-heading font-semibold text-4xl">A history of everything you copy</h1>
+<h1 className="text-heading tracking-wide font-semibold text-4xl">A history of everything you copy</h1>
 <p className="text-text mt-6 lg:w-[50%] leading-7 tracking-wide">
 Clipboard allows you to track and organize everything you 
 copy. Instantly access your clipboard on all your devices.
 </p>
 {/* HERO BUTTON SECTION */}
-<div className="flex flex-col lg:flex-row mt-8 gap-6 w-[100%] justify-center items-center align-middle">
+<div className="flex flex-col lg:flex-row mt-16 gap-6 w-[100%] justify-center items-center align-middle lg:mt-8">
 <button className="bg-primary font-semibold shadow-lg text-white  p-3 rounded-full hover:opacity-70 hover:cursor-pointer w-[100%] lg:w-[20%]">
 Download for iOS
 </button>
@@ -26,7 +26,7 @@ Download for Mac
 </div>
 </section>
 {/* Mid Section */}
-<div className="my-24 w-[80%] mx-auto ">
+<div className="my-24 lg:my-32 w-[80%] mx-auto ">
 <h2 className="text-heading text-3xl font-semibold tracking-wide">
 Keep track of your snippets
 </h2>
@@ -122,7 +122,7 @@ Quick preview of all snippets on your Clipboard for easy access.
 </section>
 {/* COMPANY SECTION */}
 <section>
-  <ul className="my-24 flex flex-col gap-16 align-middle items-center justify-center lg:flex-row lg:gap-24">
+  <ul className="my-24 flex flex-col gap-16 align-middle items-center justify-center lg:flex-row lg:my-32 lg:gap-24">
     {/* GOOGLE */}
     <li><img src={google} alt="google" /></li>
     {/* IBM */}
