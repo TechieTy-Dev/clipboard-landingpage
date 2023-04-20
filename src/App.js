@@ -8,7 +8,7 @@ function App() {
       {/* HERO SECTION */}
 <section className="flex flex-col justify-center align-middle items-center w-[80%] mx-auto">
 {/* LOGO */}
-  <img src={logo} alt="logo" className="w-24 my-16 h-24 mx-auto"/>
+  <img src={logo} alt="logo" className="w-28 my-16 lg:my-28 h-28 mx-auto"/>
   {/* HERO */}
 <h1 className="text-heading font-semibold text-4xl">A history of everything you copy</h1>
 <p className="text-text mt-6 lg:w-[50%] leading-7 tracking-wide">
@@ -37,7 +37,7 @@ devices. Our Mac and iOS apps will help you organize everything.
 </p>
 </div>
 {/* BENEFITS SECTION */}
-<section className="w-[80%] lg:w-[100%] mx-auto flex flex-col lg:flex-row">
+<section className="w-[80%] lg:w-[100%] mx-auto flex my-8 flex-col lg:flex-row">
   {/* COMPUTER IMAGE */}
   <div>
   <img src={computer} alt="computer" className=" mx-auto lg:w-[100%]" />
@@ -67,7 +67,7 @@ Complete History
 </div>
 </section>
 {/* Mid Section */}
-<div className="mt-24 mb-16 w-[80%] mx-auto">
+<div className="my-24 mb-16 w-[80%] mx-auto">
 <h2 className="text-heading text-3xl font-semibold tracking-wide">
 Access Clipboard Anywhere
 </h2>
@@ -77,7 +77,7 @@ snippets in a few simple clicks.
 </p>
 </div>
 {/* FEATURES SECTION */}
-<section className="w-[80%] mx-auto flex flex-col  justify-center items-center align-middle">
+<section className="w-[80%] mx-auto flex flex-col my-8 justify-center items-center align-middle">
   {/* MOBILE DEVICES */}
   <img src={mobile} alt="mobile"/>
   <h2 className="text-heading text-3xl font-semibold mt-20 tracking-wide">
@@ -122,7 +122,7 @@ Quick preview of all snippets on your Clipboard for easy access.
 </section>
 {/* COMPANY SECTION */}
 <section>
-  <ul className="mt-24 flex flex-col gap-16 align-middle items-center justify-center lg:flex-row lg:gap-24">
+  <ul className="my-24 flex flex-col gap-16 align-middle items-center justify-center lg:flex-row lg:gap-24">
     {/* GOOGLE */}
     <li><img src={google} alt="google" /></li>
     {/* IBM */}
